@@ -16,6 +16,7 @@ import com.example.team_jinsu.ui.theme.Team_jinsuTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
         enableEdgeToEdge()
         setContent {
             Team_jinsuTheme {
