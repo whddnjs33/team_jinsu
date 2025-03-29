@@ -18,6 +18,9 @@ async def upload_audio(file: UploadFile = File(...)):
 
     print(f"📁 파일 저장됨: {file_location}")
 
+
+
+
     # 여기서 AI 분석 로직을 넣으면 됩니다
     result = "AI 분석 결과입니다!"
 
